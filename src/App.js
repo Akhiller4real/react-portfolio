@@ -21,7 +21,7 @@ export default function App() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-purple-700 to-indigo-700" data-aos="fade-up">
-        <h2 className="text-5xl font-bold mb-4">Hi, I'm Srilakshmi 👋</h2>
+        <h2 className="text-5xl font-bold mb-4">Hi, I'm Akhil 👋</h2>
         <p className="text-xl mb-6">Frontend Developer | React Enthusiast</p>
         <a href="#projects" className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-300">View Projects</a>
       </section>
@@ -58,7 +58,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="text-center py-6 bg-gray-800">
-        <p>&copy; {new Date().getFullYear()} Srilakshmi. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Akhil. All rights reserved.</p>
       </footer>
     </div>
   );
