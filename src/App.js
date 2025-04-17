@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function App() {
   useEffect(() => {
@@ -20,10 +21,15 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-purple-700 to-indigo-700" data-aos="fade-up">
+      <section
+        className="flex flex-col items-center justify-center text-center py-20 bg-gradient-to-r from-purple-700 to-indigo-700"
+        data-aos="fade-up"
+      >
         <h2 className="text-5xl font-bold mb-4">Hi, I'm Akhil 👋</h2>
         <p className="text-xl mb-6">Frontend Developer | React Enthusiast</p>
-        <a href="#projects" className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-300">View Projects</a>
+        <a href="#projects" className="px-6 py-2 bg-white text-black rounded-full hover:bg-gray-300">
+          View Projects
+        </a>
       </section>
 
       {/* About Section */}
@@ -58,9 +64,16 @@ export default function App() {
 
       {/* Footer */}
       <footer className="text-center py-6 bg-gray-800">
+        <div className="flex justify-center space-x-6 mb-2">
+          <a href="https://github.com/Akhiller4real" target="_blank" rel="noreferrer">
+            <FaGithub size={24} className="hover:text-blue-400" />
+          </a>
+          <a href="https://linkedin.com/in/akhilkumarchirra/" target="_blank" rel="noreferrer">
+            <FaLinkedin size={24} className="hover:text-blue-400" />
+          </a>
+        </div>
         <p>&copy; {new Date().getFullYear()} Akhil. All rights reserved.</p>
       </footer>
     </div>
   );
 }
-
