@@ -9,6 +9,7 @@ export default function App() {
   }, []);
 
   return (
+  
     <div className="bg-gray-900 text-white min-h-screen font-sans">
       {/* Navbar */}
       <nav className="flex justify-between items-center px-6 py-4 bg-gray-800">
